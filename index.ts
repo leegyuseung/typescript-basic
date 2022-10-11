@@ -4,13 +4,16 @@ let names2: string[] = ["kim", "park"];
 let names3: { name?: string } = { name: "kim" };
 let names4: string | number = 123;
 
+// custom type
 type Mytype = string | number;
 let names5: Mytype = 123;
 
+// function
 function a(x: number): number {
   return x * 2;
 }
 
+// tuple
 type Member = [number, boolean];
 let john: Member = [123, true];
 

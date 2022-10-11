@@ -4,6 +4,7 @@ var names2 = ["kim", "park"];
 var names3 = { name: "kim" };
 var names4 = 123;
 var names5 = 123;
+// function
 function a(x) {
     return x * 2;
 }
