@@ -4,5 +4,7 @@
     "target": "ES5",
     "module": "commonjs",
     "strictNullChecks": true
+    // "declareation": true < d.ts 파일 자동생성.
+    // "typeRoots": ["./types"]  < 여기있는 타입들은 글로벌하게 이용가능
   }
 }
